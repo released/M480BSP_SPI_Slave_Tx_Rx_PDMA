@@ -16,7 +16,9 @@ update @ 2023/02/10
 
 3. SPI slave when detect CS pin level from SPI master , and trigger PDMA RX / TX function 
 
-4. below is log message with MASTER send 16 bytes ( TX , RX ) , SLAVE receive (RX)
+4. use terminal , digit 1 , to send SPI MASTER data
+
+5. below is log message with MASTER send 16 bytes ( TX , RX ) , SLAVE receive (RX)
 
 slave use previous receive data , for next TX data
 
